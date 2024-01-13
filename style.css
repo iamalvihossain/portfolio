@@ -1,0 +1,57 @@
+/* common body style */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary{
+    color: aliceblue;
+    background-color: orangered;
+    border-radius: 5px;
+    height: 50px;
+    width: 130px;
+    font-size: 17px;
+    border: 0;
+    margin: -17px 20px 0px 20px;
+}
+
+
+/* header-section */
+
+.web-name{
+    
+    color: solid black;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.text-primary{
+    color: orangered;
+}
+
+/* menu  */
+
+.menu{
+    display: flex;
+}
+
+nav li{
+    list-style:none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+
+/* into-section */
+
+.banner{
+    display: flex;
+}
+
+.btn-intro{
+    display: block;
+}
